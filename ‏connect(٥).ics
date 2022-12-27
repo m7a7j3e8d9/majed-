@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+PRODID:-//Microsoft Corporation//Outlook 11.0 MIMEDIR//EN
+VERSION:2.0
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:US/Eastern
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+DTSTART:19700313T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+DTSTART:19701106T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+ATTENDEE;ROLE=REQ-PARTICIPANT;RSVP=FALSE:MAILTO:www7majed.7com@gmail.com
+ORGANIZER:MAILTO:webinars@choosework.ssa.gov
+DTSTART;TZID=US/Eastern:20221026T150000
+DTEND;TZID=US/Eastern:20221026T163000
+LOCATION:
+TRANSP:OPAQUE
+SEQUENCE:0
+UID:https://tickettowork.adobeconnect.com/oct2022/event/login.html
+DTSTAMP;TZID=US/Eastern:20221025T150011
+DESCRIPTION:This is a reminder that you are invited to How Will Work affect my Medicaid or Medicare?, which is due to start at Wednesday 26 October 2022, 03:00 PM - 04:30 PM. Below are the event details and instructions for participating:\n\nEvent: How Will Work affect my Medicaid or Medicare?\nLogin: www7majed.7com@gmail.com\nDescription: \nHost: Ticket to Work Webinars\nWhen: Wednesday 26 October 2022, 03:00 PM - 04:30 PM\nTime Zone: (GMT-04:00) Eastern Time (US and Canada) (Please note that Daylight Saving Time (+01:00 hr) is in effect during this time)\n\nTo access the event, please go to the following link at the time of the event and login with your username and password (if required) with which you have registered for this event:\nhttps://tickettowork.adobeconnect.com/oct2022/event/login.html?login=www7majed.7com%40gmail.com\n\nIf you have not registered for this event, please go to the following link to register:\nhttps://tickettowork.adobeconnect.com/oct2022/event/registration.html\n\nAudio Conference Details:\n\nMeetingOne Conference Room Number : 4189148\nParticipant Access Code : null\nURL to additional access numbers : http://www.meetingone.com/Access_Phone_Numbers\n\nConference Number(s):\n\nUnited States : +18008320736\n \n\nThank you\nTicket to Work Webinars\n----------------\nIf you've never used Adobe Connect, get a quick overview:\nhttps://www.adobe.com/products/adobeconnect.html\n\nAdobe, the Adobe logo, Acrobat and Adobe Connect are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.
+X-ALT-DESC;FMTTYPE=text/html:This is a reminder that you are invited to How Will Work affect my Medicaid or Medicare?, which is due to start at Wednesday 26 October 2022, 03:00 PM - 04:30 PM. Below are the event details and instructions for participating:<br /><br />Event: How Will Work affect my Medicaid or Medicare?<br />Login: www7majed.7com@gmail.com<br />Description: <br />Host: Ticket to Work Webinars<br />When: Wednesday 26 October 2022, 03:00 PM - 04:30 PM<br />Time Zone: (GMT-04:00) Eastern Time (US and Canada) (Please note that Daylight Saving Time (+01:00 hr) is in effect during this time)<br /><br />To access the event, please go to the following link at the time of the event and login with your username and password (if required) with which you have registered for this event:<br />https://tickettowork.adobeconnect.com/oct2022/event/login.html?login=www7majed.7com%40gmail.com<br /><br />If you have not registered for this event, please go to the following link to register:<br />https://tickettowork.adobeconnect.com/oct2022/event/registration.html<br /><br />Audio Conference Details:<br /><br />MeetingOne Conference Room Number : 4189148<br />Participant Access Code : null<br />URL to additional access numbers : http://www.meetingone.com/Access_Phone_Numbers<br /><br />Conference Number(s):<br /><br />United States : +18008320736<br /> <br /><br />Thank you<br />Ticket to Work Webinars<br />----------------<br />If you've never used Adobe Connect, get a quick overview:<br />https://www.adobe.com/products/adobeconnect.html<br /><br />Adobe, the Adobe logo, Acrobat and Adobe Connect are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries.
+SUMMARY:How Will Work affect my Medicaid or Medicare? Reminder
+PRIORITY:5
+X-MICROSOFT-CDO-IMPORTANCE:1
+CLASS:PUBLIC
+BEGIN:VALARM
+TRIGGER:-PT15M
+ACTION:DISPLAY
+DESCRIPTION:REMINDER
+END:VALARM
+END:VEVENT
+END:VCALENDAR
